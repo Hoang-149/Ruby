@@ -8,9 +8,9 @@ class Officer
     end
     def display
         puts " Ten : #{@s_name}"
-        puts " tuoi: #{@s_age}"
-        puts " gioi tinh: #{@s_gender}"
-        puts "dia chi #{@s_address}"
+        puts " Tuoi: #{@s_age}"
+        puts " Gioi tinh: #{@s_gender}"
+        puts "Dia chi #{@s_address}"
     end
 end
 class Congnhan < Officer
